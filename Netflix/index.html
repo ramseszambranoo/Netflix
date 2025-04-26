@@ -3,22 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Netflix Venezuela: Ve series online, ve peliculas online</title>
     <link rel="stylesheet" href="src/output.css" />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="src/styles-text.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="icon" href="images/4375011_logo_netflix_icon.png" >
   </head>
   <body class="border-box bg-black">
     <!--IMAGEN DE FONDO BLUR-->
     <div
-      class="bg-[linear-gradient(to_bottom,rgba(41,25,29,0.9),rgba(41,25,29,0.9),rgba(41,25,29,0.9),rgba(0,0,0,1)),url('https://assets.nflxext.com/ffe/siteui/vlv3/69bec183-9cc8-49d4-8fc2-08228d3c91b4/web/VE-es-20250414-TRIFECTA-perspective_15518acb-ec7c-4947-a3ae-1917cc88e376_large.jpg')] bg-center h-[80px] w-full absolute h-full w-full z-1 blur-xl bg-center bg-cover bg-no-repeat"
+      class="bg-[linear-gradient(to_bottom,rgba(41,25,29,0.9),rgba(41,25,29,0.9),rgba(41,25,29,0.9),rgba(0,0,0,1)),url('https://assets.nflxext.com/ffe/siteui/vlv3/69bec183-9cc8-49d4-8fc2-08228d3c91b4/web/VE-es-20250414-TRIFECTA-perspective_15518acb-ec7c-4947-a3ae-1917cc88e376_large.jpg')] bg-center h-[80px] w-full absolute h-[1400px] w-full z-1 blur-xl bg-center bg-cover bg-no-repeat bg-size"
     ></div>
     <!--NAV-->
     <nav
@@ -294,7 +290,7 @@
         </div>
       </section>
       <!--PLANES DE NETFLIX-->
-      <section class=" relative z-2 h-auto w-full mt-[20px] flex
+      <section data-aos="fade-up" class=" relative z-2 h-auto w-full mt-[20px] flex
       flex-col lg:px-[20px] xl:px-[80px]">
         <div class="mb-[10px]">
           <h4 class="text-[18px] pt-[5px] md:text-[22px] xl:text-[30px] xl:ml-[0] opacity-90 font-bold text-white">Un plan que se ajusta a tus necesidades</h4>
@@ -410,7 +406,7 @@
 
       <!--SECCION ETIQUETAS-->
 
-      <section
+      <section data-aos="fade-up"
         class="relative z-2 h-auto w-full mt-[20px] flex flex-col lg:px-[20px] xl:px-[80px]"
       >
         <div class="mb-[10px]">
@@ -655,7 +651,7 @@
               placeholder="Email"
             />
             <p
-              class="bg-red-600 h-[50px] w-full text-white flex justify-center items-center rounded-4xl text-[20px] font-bold sm:w-[40%] sm:p-[20px] cursor-pointer gap-3  hover:bg-red-700 transition-colors duration-300"
+              class="bg-red-600 h-[50px] w-full text-white flex justify-center items-center rounded-4xl text-[20px] font-bold sm:w-[40%] sm:p-[20px] cursor-pointer gap-3  hover:bg-red-700"
             >
               Comenzar
               <svg
