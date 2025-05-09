@@ -197,6 +197,9 @@
   .mx-\[20px\] {
     margin-inline: 20px;
   }
+  .mx-auto {
+    margin-inline: auto;
+  }
   .mt-1 {
     margin-top: calc(var(--spacing) * 1);
   }
@@ -310,6 +313,15 @@
   }
   .w-full {
     width: 100%;
+  }
+  .max-w-\[1\] {
+    max-width: 1;
+  }
+  .max-w-\[1400px\] {
+    max-width: 1400px;
+  }
+  .max-w-\[1700px\] {
+    max-width: 1700px;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -731,12 +743,6 @@
         --tw-gradient-from: var(--color-blue-800);
         --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
       }
-    }
-  }
-  .focus\:border-2 {
-    &:focus {
-      border-style: var(--tw-border-style);
-      border-width: 2px;
     }
   }
   .focus\:border-white {
